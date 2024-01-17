@@ -1,10 +1,11 @@
-import About from "../About/About";
+import Banner from "../../Nav/Banner";
+
 
 
 const Home = () => {
     return (
         <div>
-            <About />
+            <Banner />
         </div>
     );
 };
