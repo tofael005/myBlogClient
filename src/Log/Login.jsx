@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
@@ -11,7 +12,7 @@ const Login = () => {
                 <input className="w-full border p-3 rounded-md mt-1" type="password" name="password" id="" placeholder="Enter password" />
 
                 <input className="bg-blue-400 w-full block mx-auto p-3 rounded-md mt-5" type="button" value="Login" />
-                <p className="text-center mt-3">You don't have an account <span className="text-blue-800">Register Now!</span></p>
+                <p className="text-center mt-3">You don't have an account <span className="text-blue-800"><Link to="/register">Register Now!</Link></span></p>
             </form>
         </div>
     );
