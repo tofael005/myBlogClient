@@ -3,7 +3,7 @@
 const RecentBlog = () => {
     return (
         <div>
-            <h1>Recente Blog</h1>
+            <h1>Recent Blog</h1>
         </div>
     );
 };
