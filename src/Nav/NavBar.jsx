@@ -6,15 +6,15 @@ const NavBar = () => {
         <div className="flex justify-between max-w-[1240px] mx-auto py-3">
             <h1>NavBar!</h1>
 
-            <ul>
+            <ul className="flex items-center gap-5">
                 <li>
-                    <Link>Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
                     <Link>Recent Blog</Link>
                 </li>
                 <li>
-                    <Link to="/login">Login!</Link>
+                    <Link to="/login">Login</Link>
                 </li>
             </ul>
         </div>
