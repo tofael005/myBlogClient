@@ -13,7 +13,7 @@ const SignUp = () => {
                 <input className="w-full border p-3 rounded-md mt-1" type="password" name="password" id="" placeholder="Enter password" />
 
                 <input className="bg-blue-400 w-full block mx-auto p-3 rounded-md mt-5" type="button" value="Sign Up" />
-                <p className="text-center mt-3">Already have an account<span className="text-blue-800"><Link to="/login">Login</Link></span></p>
+                <p className="text-center mt-3">Already have an account!<span className="text-blue-800"><Link to="/login">Login</Link></span></p>
             </form>
         </div>
     );
