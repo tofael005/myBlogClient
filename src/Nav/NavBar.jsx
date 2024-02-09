@@ -14,6 +14,9 @@ const NavBar = () => {
                     <Link>Recent Blog</Link>
                 </li>
                 <li>
+                    <Link to="/about">About</Link>
+                </li>
+                <li>
                     <Link to="/login">Login</Link>
                 </li>
             </ul>
