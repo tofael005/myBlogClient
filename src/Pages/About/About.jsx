@@ -1,23 +1,24 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import Single from "./single";
+
 
 
 
 
 const About = () => {
-    const [cards, setCards] = useState()
+    const [cards, setCards] = useState([])
 
     useEffect(() => {
-            fetch("http://localhost:3000/mealbd")
+        fetch("http://localhost:3000/blogs")
             .then(res => res.json())
-            .then(data => setCards(data.data))
+            .then(data => setCards(data))
     }, [])
-    console.log(cards)
     return (
         <div className="max-w-[1240px] mx-auto mt-14">
             {
-               cards?.map((SingleCard, i) => <Single key={i} SingleCard={SingleCard} />)
+                cards?.map((data) => {
+                    <p>{data.des}</p>
+                })
             }
 
         </div>
