@@ -1,5 +1,5 @@
 import Banner from "../../Nav/Banner";
-import About from "../About/About";
+
 
 
 
