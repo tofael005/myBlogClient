@@ -20,11 +20,6 @@ const About = () => {
                     <p>{data.des}</p>
                 })
             }
-          <h1>ggf....</h1>
-          <h1>jhghjg</h1>
-          <p>hghgh</p>
-          <p>hghg</p>
-
         </div>
     );
 };
