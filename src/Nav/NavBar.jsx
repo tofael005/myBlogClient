@@ -9,8 +9,7 @@ const NavBar = () => {
             <ul className="flex items-center gap-5">
                 <li>
                     <Link to="/">Home</Link>
-                </li>
-                
+                </li>     
                 <li>
                     <Link to="/about">About</Link>
                 </li>
