@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div>
-            <h1>Banner page.</h1>
+            <img src={Banner} alt="" />
         </div>
     );
 };
