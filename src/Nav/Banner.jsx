@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
             <img src={banner} alt="" />
-            <h1>hdjsdjs.....</h1>
+            <h1>hdjsdjs......</h1>
         </div>
     );
 };
