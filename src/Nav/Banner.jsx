@@ -3,7 +3,7 @@ import banner from "../assets/banner/banner.png"
 const Banner = () => {
     return (
         <div>
-            <img className="container" src={banner} alt="" />
+            <img className="object-cover w-full h-[70vh]" src={banner} alt="" />
             
         </div>
     );
