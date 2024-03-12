@@ -3,7 +3,7 @@
 const LandingSection = () => {
     return (
         <div className="mt-[14px]">
-            <div>
+            <div className="flex md:flex-row flex-col justify-center">
                 <div>
                     <h1>Left</h1>
                 </div>
