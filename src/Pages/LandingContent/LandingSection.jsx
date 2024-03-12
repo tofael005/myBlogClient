@@ -9,7 +9,7 @@ const LandingSection = () => {
                 </div>
 
                 <div className="md:w-[800px]">
-                    <h1>Right</h1>
+                    <img src={about} alt="" />
                 </div>
             </div>
         </div>
