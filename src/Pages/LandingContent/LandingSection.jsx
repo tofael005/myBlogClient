@@ -2,7 +2,7 @@
 
 const LandingSection = () => {
     return (
-        <div>
+        <div className="mt-[14px]">
             <div>
                 <div>
                     <h1>Left</h1>
