@@ -1,4 +1,6 @@
 import about from "../../assets/banner/me.jpg"
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaComments } from "react-icons/fa6";
 
 const LandingSection = () => {
     return (
@@ -16,7 +18,22 @@ const LandingSection = () => {
                 <div className="md:w-full px-2">
                     <div>
                         <img className="rounded-md h-[50vh] w-full" src={about} alt="" />
-                        <h1>July, 15, 2021 - Tips and Tricks </h1>
+                        <h1 className="my-6">July, 15, 2021 - Tips and Tricks </h1>
+                        <p>A traveler’s guide to Penang, Malaysia - Where to
+                            Eat, Drink, Sleep and Explore </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra pharetra ac erat commodo non leo eget gravida viverra. Pharetra pharetra.</p>
+
+
+                        <div className="">
+                            <div>
+                                <FaLocationArrow />
+                                <p>Malaysia</p>
+                            </div>
+                            <div>
+                                <FaComments />
+                                <p>Comment (52)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
