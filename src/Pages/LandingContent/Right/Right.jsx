@@ -1,4 +1,6 @@
-
+import about from "../../../assets/banner/banner.png"
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaComments } from "react-icons/fa6";
 
 const Right = () => {
     return (
