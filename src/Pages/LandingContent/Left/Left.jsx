@@ -9,6 +9,10 @@ const Left = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit beatae pariatur. quibusdam quia! Omnis reprehenderit deleniti nulla nihil eveniet?</p>
                 <button className="p-3 bg-blue-600 rounded-md block mx-auto my-4 text-white">Read more</button>
             </div>
+
+            <div>
+                <h1>Catagory</h1>
+            </div>
         </div>
     );
 };
