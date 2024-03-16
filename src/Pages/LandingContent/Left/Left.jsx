@@ -12,6 +12,12 @@ const Left = () => {
 
             <div className="mt-10">
                 <h1>Catagory</h1>
+                <div>
+                    <div>
+                        <h1>Europe</h1>
+                        <p>(22)</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
