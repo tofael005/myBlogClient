@@ -10,7 +10,7 @@ const Left = () => {
                 <button className="p-3 bg-blue-600 rounded-md block mx-auto my-4 text-white">Read more</button>
             </div>
 
-            <div>
+            <div className="mt-10">
                 <h1>Catagory</h1>
             </div>
         </div>
