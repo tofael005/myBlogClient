@@ -35,6 +35,10 @@ const Left = () => {
                         <h1>Europe</h1>
                         <p>(22)</p>
                     </div>
+                    <div className="flex justify-between items-center">
+                        <h1>Europe</h1>
+                        <p>(22)</p>
+                    </div>
                 </div>
             </div>
         </div>
