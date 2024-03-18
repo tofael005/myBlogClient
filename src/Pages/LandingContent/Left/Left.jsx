@@ -10,9 +10,15 @@ const Left = () => {
                 <button className="p-3 bg-blue-600 rounded-md block mx-auto my-4 text-white">Read more</button>
             </div>
 
+
+
             <div className="mt-10">
                 <h1>Catagory</h1>
                 <div>
+                    <div className="flex justify-between items-center">
+                        <h1>Europe</h1>
+                        <p>(22)</p>
+                    </div>
                     <div className="flex justify-between items-center">
                         <h1>Europe</h1>
                         <p>(22)</p>
