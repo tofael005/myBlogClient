@@ -1,5 +1,5 @@
 import postOne from "../../../assets/post/Beach.jpeg"
-import postOne from "../../../assets/post/car beach.jpeg"
+import postTwo from "../../../assets/post/car beach.jpeg"
 
 
 const PostBanTwo = () => {
@@ -8,6 +8,7 @@ const PostBanTwo = () => {
             <h1>Post</h1>
             <div>
                 <img src={postOne} alt="" />
+                <img src={postTwo} alt="" />
             </div>
         </div>
     );
