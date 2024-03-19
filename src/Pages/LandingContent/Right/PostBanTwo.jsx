@@ -1,5 +1,5 @@
 import postOne from "../../../assets/post/Beach.jpeg"
-import postOne from "../../../assets/post/Beach.jpeg"
+import postOne from "../../../assets/post/car beach.jpeg"
 
 
 const PostBanTwo = () => {
