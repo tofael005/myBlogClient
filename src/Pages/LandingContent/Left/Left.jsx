@@ -41,6 +41,10 @@ const Left = () => {
                     </div>
                 </div>
             </div>
+
+            <div>
+                <p></p>
+            </div>
         </div>
     );
 };
