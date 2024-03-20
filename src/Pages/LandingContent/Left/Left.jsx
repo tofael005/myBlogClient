@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import leftimg from "../../../assets/banner/me.jpg"
 
 const Left = () => {
     return (
         <div>
-            <div className="p-4 shadow-black/25 shadow-sm rounded-md">
+            <div className="p-4 shadow-black/25 shadow-sm rounded-md border">
                 <img className="rounded-md" src={leftimg} alt="" />
                 <h1>About Me</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit beatae pariatur. quibusdam quia! Omnis reprehenderit deleniti nulla nihil eveniet?</p>
@@ -12,7 +13,7 @@ const Left = () => {
 
 
 
-            <div className="mt-10 shadow-black/35 shadow-sm rounded-md p-4">
+            <div className="mt-10 shadow-black/35 shadow-sm rounded-md p-4 border">
                 <h1 className="text-center mb-8 text-xl font-semibold">Categories</h1>
                 <div>
                     <div className="flex justify-between items-center my-4">
@@ -42,8 +43,10 @@ const Left = () => {
                 </div>
             </div>
 
-            <div>
-                <p>Popular Post</p>
+            <div className="shadow-black/25 border p-4 rounded-md shadow-sm mt-10">
+                <Link to="/popularPost">
+                    <p className="text-2xl font-bold text-center cursor-pointer hover:text-blue-400 duration-300">Popular Post</p>
+                </Link>
             </div>
         </div>
     );

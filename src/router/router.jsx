@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Log/Login";
 import SignUp from "../Log/SignUp";
 import About from "../Pages/About/About";
+import PopularPost from "../Pages/LandingContent/Left/PopularPost/PopularPost";
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
            {
             path: "/register",
             element: <SignUp />
+           },
+           {
+            path: "/popularPost",
+            element: <PopularPost />
            }
         ])
     }
