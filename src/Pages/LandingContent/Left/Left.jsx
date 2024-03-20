@@ -43,7 +43,7 @@ const Left = () => {
             </div>
 
             <div>
-                <p></p>
+                <p>Popular Post</p>
             </div>
         </div>
     );
