@@ -45,7 +45,7 @@ const Left = () => {
 
             <div className="shadow-black/25 border p-4 rounded-md shadow-sm mt-10">
                 <Link to="/popularPost">
-                    <p className="text-2xl font-bold text-center cursor-pointer hover:text-blue-400 duration-300">Popular Post...</p>
+                    <p className="text-2xl font-bold text-center cursor-pointer hover:text-blue-400 duration-300">Popular Post....</p>
                 </Link>
             </div>
         </div>
