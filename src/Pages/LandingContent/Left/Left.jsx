@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import leftimg from "../../../assets/banner/me.jpg"
+import baner from "../../../assets/post/Beach.jpeg"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -55,18 +56,27 @@ const Left = () => {
                 </Link>
             </div>
 
-            <div>
-                <h1>Post</h1>
-                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                    <SwiperSlide>Slide 1</SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+            <div className="mt-10 rounded-md">
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper md:w-[400px] rounded-md p-2">
+                    <SwiperSlide>
+                        <div className="rounded-md">
+                            <img className="rounded-md relative w-[400px]" src={baner} alt="" />
+                            <div className="absolute top-[20px] left-[30px] text-white -mt-[20px] -ml-[30px] md:w-[400px] w-full h-full md:h-[400px] backdrop-brightness-50">
+                                <h1 className="ml-[65px] mt-8">September 17, 2018 - Tips & Tricks</h1>
+                                <p className="text-2xl -md:ml-[90px] text-center mt-16 font-bold">Finding Love & home in <br /> Tbilisi, Georgia</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="rounded-md">
+                            <img className="rounded-md relative w-[400px]" src={baner} alt="" />
+                            <div className="absolute top-[20px] left-[30px] text-white -mt-[20px] -ml-[30px] md:w-[400px] w-full h-full backdrop-brightness-50">
+                                <h1 className="ml-[65px] mt-8">September 17, 2018 - Tips & Tricks</h1>
+                                <p className="text-2xl -md:ml-[90px] text-center mt-16 font-bold">Finding Love & home in <br /> Tbilisi, Georgia</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    
                 </Swiper>
             </div>
         </div>
