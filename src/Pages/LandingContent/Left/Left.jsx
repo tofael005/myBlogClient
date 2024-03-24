@@ -48,6 +48,10 @@ const Left = () => {
                     <p className="text-2xl font-bold text-center cursor-pointer hover:text-blue-400 duration-300">Popular Post</p>
                 </Link>
             </div>
+
+            <div>
+                <h1>Post</h1>
+            </div>
         </div>
     );
 };
