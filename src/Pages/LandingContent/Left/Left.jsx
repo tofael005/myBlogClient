@@ -63,7 +63,7 @@ const Left = () => {
                             <img className="rounded-md relative w-[400px]" src={baner} alt="" />
                             <div className="absolute top-[20px] left-[30px] text-white -mt-[20px] -ml-[30px] md:w-[400px] w-full h-full md:h-[400px] backdrop-brightness-50">
                                 <h1 className="ml-[65px] mt-8">September 17, 2018 - Tips & Tricks</h1>
-                                <p className="text-2xl -md:ml-[90px] text-center mt-16 font-bold">Finding Love & home in <br /> Tbilisi, Georgia</p>
+                                <p className="text-2xl -md:ml-[90px] text-center mt-16 font-bold">Finding Love & home in <br /> Tbilisi Georgia</p>
                             </div>
                         </div>
                     </SwiperSlide>
