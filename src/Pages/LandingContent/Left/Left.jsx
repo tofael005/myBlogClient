@@ -36,7 +36,7 @@ const Left = () => {
                         <p>(22)</p>
                     </div>
                     <div className="flex justify-between items-center my-2 p-2 rounded-md hover:shadow-blue-400 hover:shadow-md duration-300 cursor-pointer">
-                        <h1>Guides for traveler</h1>
+                        <h1>Guides for traveler.</h1>
                         <p>(22)</p>
                     </div>
                     <div className="flex justify-between items-center my-2 p-2 rounded-md hover:shadow-blue-400 hover:shadow-md duration-300 cursor-pointer">
