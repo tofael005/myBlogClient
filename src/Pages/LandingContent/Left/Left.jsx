@@ -24,7 +24,7 @@ const Left = () => {
                 <h1 className="text-center mb-8 text-xl font-semibold">Categories</h1>
                 <div>
                     <div className="flex justify-between items-center my-2 p-2 rounded-md hover:shadow-blue-400 hover:shadow-md duration-300 cursor-pointer">
-                        <h1>Europe</h1>
+                        <h1>Europe.</h1>
                         <p>(22)</p>
                     </div>
                     <div className="flex justify-between items-center my-2 p-2 rounded-md hover:shadow-blue-400 hover:shadow-md duration-300 cursor-pointer">
