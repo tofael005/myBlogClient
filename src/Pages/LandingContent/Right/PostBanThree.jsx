@@ -4,7 +4,7 @@ const PostBanThree = () => {
     return (
         <div>
             <h1>Post Banner three</h1>
-            <img src="" alt="" />
+            <img src={post} alt="" />
         </div>
     );
 };
