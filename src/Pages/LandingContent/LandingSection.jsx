@@ -1,5 +1,6 @@
 
 import Left from "./Left/Left";
+import RecentPost from "./Left/RecentPost/RecentPost";
 import PostBanThree from "./Right/PostBanThree";
 import PostBanTwo from "./Right/PostBanTwo";
 import Right from "./Right/Right";
@@ -12,6 +13,7 @@ const LandingSection = () => {
                 {/* LEFT SITE  */}
                 <div className="md:w-[500px] px-2">
                     <Left />
+                    <RecentPost />
                 </div>
 
 
