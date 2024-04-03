@@ -7,7 +7,7 @@ const RecentPost = () => {
                 <h1 className="text-2xl font-bold text-center p-4">Recent Post</h1>
             </div>
             <div className="mt-10">
-                <div>
+                <div className="flex gap-3 items-center">
                     <img src={post} alt="" />
                     <div>
                         <p>September 17, 2021 - Tips & Tricks</p>
