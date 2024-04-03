@@ -11,6 +11,7 @@ const RecentPost = () => {
                     <img src={post} alt="" />
                     <div>
                         <p>September 17, 2021 - Tips & Tricks</p>
+                        <h1>Have you read The Beach by Alex?</h1>
                     </div>
                 </div>
             </div>
