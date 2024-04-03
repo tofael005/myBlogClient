@@ -9,6 +9,9 @@ const RecentPost = () => {
             <div className="mt-10">
                 <div>
                     <img src={post} alt="" />
+                    <div>
+                        <p>September 17, 2021 - Tips & Tricks</p>
+                    </div>
                 </div>
             </div>
         </div>
