@@ -5,6 +5,7 @@ import Login from "../Log/Login";
 import SignUp from "../Log/SignUp";
 import About from "../Pages/About/About";
 import PopularPost from "../Pages/LandingContent/Left/PopularPost/PopularPost";
+import GearDetails from "../Pages/LandingContent/Left/PopularPost/GearDetails";
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
            {
             path: "/popularPost",
             element: <PopularPost />
+           },
+           {
+            path: "/gear",
+            element: <GearDetails />
            }
         ])
     }

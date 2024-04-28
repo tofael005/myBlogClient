@@ -1,6 +1,7 @@
 
 import Left from "./Left/Left";
 import Gear from "./Left/PopularPost/Gear";
+import ProductThat from "./Left/PopularPost/ProductThat";
 import RecentPost from "./Left/RecentPost/RecentPost";
 import PostBanThree from "./Right/PostBanThree";
 import PostBanTwo from "./Right/PostBanTwo";
@@ -16,6 +17,7 @@ const LandingSection = () => {
                     <Left />
                     <RecentPost />
                     <Gear />
+                    <ProductThat />
                 </div>
 
 
