@@ -8,7 +8,7 @@ const RecentPost = () => {
             </div>
 
             
-            <div className="mt-10">
+            <div className="mt-10 shadow-sm shadow-black/20 rounded-md cursor-pointer">
                 <div className="flex gap-3 items-center">
                     <img className="md:w-[100px] h-[80px] rounded-md" src={post} alt=""/>
                     <div>
@@ -17,7 +17,7 @@ const RecentPost = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 shadow-sm shadow-black/20 rounded-md cursor-pointer">
                 <div className="flex gap-3 items-center">
                     <img className="md:w-[100px] h-[80px] rounded-md" src={post} alt="" />
                     <div>
@@ -26,7 +26,7 @@ const RecentPost = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 shadow-sm shadow-black/20 rounded-md cursor-pointer">
                 <div className="flex gap-3 items-center">
                     <img className="md:w-[100px] h-[80px] rounded-md" src={post} alt="" />
                     <div>

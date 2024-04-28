@@ -1,5 +1,6 @@
 
 import Left from "./Left/Left";
+import Gear from "./Left/PopularPost/Gear";
 import RecentPost from "./Left/RecentPost/RecentPost";
 import PostBanThree from "./Right/PostBanThree";
 import PostBanTwo from "./Right/PostBanTwo";
@@ -14,6 +15,7 @@ const LandingSection = () => {
                 <div className="md:w-[500px] px-2">
                     <Left />
                     <RecentPost />
+                    <Gear />
                 </div>
 
 
