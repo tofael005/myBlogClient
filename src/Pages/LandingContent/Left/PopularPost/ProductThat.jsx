@@ -12,6 +12,7 @@ const ProductThat = () => {
                 <img src={product} alt="" />
                 <div>
                     <h1>Apple MacBook Air  MJV2ELL/A 13-inch Laptop </h1>
+                    <p>$514</p>
                 </div>
             </div>
         </div>
