@@ -11,7 +11,7 @@ const ProductThat = () => {
             <div className="flex justify-center items-center gap-6">
                 <img className="w-[100px] h-[100px]" src={product} alt="" />
                 <div>
-                    <h1>Apple MacBook Air  MJV2ELL/A 13-inch Laptop </h1>
+                    <h1 className="text-xl font-semibold">Apple MacBook Air  MJV2ELL/A 13-inch Laptop </h1>
                     <p>$514</p>
                 </div>
             </div>
