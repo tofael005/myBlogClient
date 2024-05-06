@@ -1,4 +1,4 @@
-
+import product from "../../../../assets/post/car beach.jpeg"
 
 const ProductThat = () => {
     return (
@@ -8,7 +8,9 @@ const ProductThat = () => {
         </div>
 
         <div>
-            
+            <div>
+                <img src={product} alt="" />
+            </div>
         </div>
 
         </div>
